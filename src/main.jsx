@@ -3,7 +3,6 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.jsx'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import SayHelloComponent from './components/SayHelloComponent.jsx'
 import AddTwoNumbersComponent from './components/AddTwoNumbersComponent.jsx'
 import AskingQuestionsComponent from './components/AskingQuestionsComponent.jsx'
@@ -14,6 +13,8 @@ import ReverseNumberComponent from './components/ReverseNumberComponent.jsx'
 import Magic8BallComponent from './components/Magic8BallComponent.jsx'
 import OddOrEvenComponent from './components/OddOrEvenComponent.jsx'
 import RestaurantPickerComponent from './components/RestaurantPickerComponent.jsx'
+import AboutScreenComponent from './components/AboutScreenComponent.jsx'
+import PlayScreenComponent from './components/PlayScreenComponent.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -30,7 +31,10 @@ createRoot(document.getElementById('root')).render(
           <Route path='/magic8' element={<Magic8BallComponent />} />
           <Route path='/oddEven' element={<OddOrEvenComponent />} />
           <Route path='/restaurantPicker' element={<RestaurantPickerComponent />} />
+          <Route path='/about' element={<AboutScreenComponent />} />
+          <Route path='/play' element={<PlayScreenComponent />} />
+
         </Routes>
       </BrowserRouter>
-  </StrictMode>,
+  </StrictMode>
 )

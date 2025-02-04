@@ -1,3 +1,12 @@
+const Magic8BallComponent = () => {
 
 
-export default Magic8BallComponentComponent;
+
+
+
+    return (
+        <h1>Magic 8 Ball</h1>
+    )
+}
+
+export default Magic8BallComponent;

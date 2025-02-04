@@ -1,3 +1,12 @@
+const GreaterThenComponent = () => {
 
 
-export default GreaterThanComponent;
+
+
+
+    return (
+        <h1>About</h1>
+    )
+}
+
+export default GreaterThenComponent;
