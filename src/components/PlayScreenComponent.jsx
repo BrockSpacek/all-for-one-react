@@ -25,77 +25,77 @@ const PlayScreenComponent = () => {
 
             <div className="row-start-2 col-start-2 col-span-2">
                 <Link to='/hello' className="">
-                     <img className="rounded-3xl sm:h-[170px] h-[125px] w-full hover:opacity-70" src={GameOneButton} alt="Splash button" />
+                     <img className="rounded-3xl lg:h-[170px] h-[125px] w-full hover:opacity-70" src={GameOneButton} alt="Splash button" />
                 
                  </Link>
             </div>
 
             <div className="row-start-2 sm:col-start-5 col-start-4 col-span-2 ">
                 <Link to='/addNumber' className="">
-                     <img className="rounded-3xl sm:h-[170px] h-[125px]  w-full hover:opacity-70" src={GameTwoButton} alt="Splash button" />
+                     <img className="rounded-3xl lg:h-[170px] h-[125px]  w-full hover:opacity-70" src={GameTwoButton} alt="Splash button" />
                 
                  </Link>
             </div>
 
             <div className="lg:row-start-2 lg:col-start-8 col-start-2 row-start-3 col-span-2 ">
                 <Link to='/askQuestion' className="">
-                     <img className="rounded-3xl sm:h-[170px] h-[125px]  w-full hover:opacity-70" src={GameThreeButton} alt="Splash button" />
+                     <img className="rounded-3xl lg:h-[170px] h-[125px]  w-full hover:opacity-70" src={GameThreeButton} alt="Splash button" />
                 
                  </Link>
             </div>
 
             <div className="row-start-3 lg:col-start-2 sm:col-start-5 col-start-4 col-span-2 ">
                 <Link to='/oddEven' className="">
-                     <img className="rounded-3xl sm:h-[170px] h-[125px]  w-full hover:opacity-70" src={GameFourButton} alt="Splash button" />
+                     <img className="rounded-3xl lg:h-[170px] h-[125px]  w-full hover:opacity-70" src={GameFourButton} alt="Splash button" />
                 
                  </Link>
             </div>
 
             <div className="lg:row-start-3 lg:col-start-5 row-start-4 col-start-2 col-span-2 ">
                 <Link to='/greaterorless' className="">
-                     <img className="rounded-3xl sm:h-[170px] h-[125px]  w-full hover:opacity-70" src={GameFiveButton} alt="Splash button" />
+                     <img className="rounded-3xl lg:h-[170px] h-[125px]  w-full hover:opacity-70" src={GameFiveButton} alt="Splash button" />
                 
                  </Link>
             </div>
 
             <div className="lg:row-start-3 lg:col-start-8 row-start-4 sm:col-start-5 col-start-4 col-span-2 ">
                 <Link to='/madlib' className="">
-                     <img className="rounded-3xl sm:h-[170px] h-[125px]  w-full hover:opacity-70" src={GameSixButton} alt="Splash button" />
+                     <img className="rounded-3xl lg:h-[170px] h-[125px]  w-full hover:opacity-70" src={GameSixButton} alt="Splash button" />
                 
                  </Link>
             </div>
 
             <div className="lg:row-start-4 col-start-2 row-start-5 col-span-2 ">
                 <Link to='/reverseString' className="">
-                     <img className="rounded-3xl sm:h-[170px] h-[125px]  w-full hover:opacity-70" src={GameSevenButton} alt="Splash button" />
+                     <img className="rounded-3xl lg:h-[170px] h-[125px]  w-full hover:opacity-70" src={GameSevenButton} alt="Splash button" />
                 
                  </Link>
             </div>
 
             <div className="lg:row-start-4 sm:col-start-5 col-start-4 row-start-5 col-span-2 ">
                 <Link to='/reverseNumber' className="">
-                     <img className="rounded-3xl sm:h-[170px] h-[125px]  w-full hover:opacity-70" src={GameEightButton} alt="Splash button" />
+                     <img className="rounded-3xl lg:h-[170px] h-[125px]  w-full hover:opacity-70" src={GameEightButton} alt="Splash button" />
                 
                  </Link>
             </div>
 
             <div className="lg:row-start-4 lg:col-start-8 row-start-6 col-start-2 col-span-2 ">
                 <Link to='/magic8' className="">
-                     <img className="rounded-3xl sm:h-[170px] h-[125px]  w-full hover:opacity-70" src={GameNineButton} alt="Splash button" />
+                     <img className="rounded-3xl lg:h-[170px] h-[125px]  w-full hover:opacity-70" src={GameNineButton} alt="Splash button" />
                 
                  </Link>
             </div>
 
             <div className="lg:row-start-5 sm:col-start-5 col-start-4 row-start-6 col-span-2 ">
                 <Link to='/restaurantPicker' className="">
-                     <img className="rounded-3xl sm:h-[170px] h-[125px]  w-full hover:opacity-70" src={GameTenButton} alt="Splash button" />
+                     <img className="rounded-3xl lg:h-[170px] h-[125px]  w-full hover:opacity-70" src={GameTenButton} alt="Splash button" />
                 
                  </Link>
             </div>
 
             <div className="mx-auto lg:mx-0 w-fit lg:ml-auto lg:mr-[15%] sm:col-start-4 col-start-3 col-span-2 sm:col-span-1 lg:col-start-8 lg:row-start-5 row-start-7">
                         <Link to='/' className="grid grid-cols-1 grid-rows-1 place-items-center">
-                            <img className="max-w-xs hover:opacity-70 col-start-6 row-start-5 sm:h-[170px] h-[125px] " src={HomeImage} alt="Splash button" />
+                            <img className="max-w-xs hover:opacity-70 col-start-6 row-start-5 lg:h-[170px] h-[125px] " src={HomeImage} alt="Splash button" />
                             <h2 className="sm:text-2xl text-white col-start-6 row-start-5 text-center place-items-center">Main Menu</h2>
                         </Link>
                       </div>

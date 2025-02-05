@@ -39,7 +39,7 @@ const SayHelloComponent = () => {
           />
         </div>
 
-      <div className="lg:mr-[5%] flex lg:justify-end justify-center">
+      <div className="lg:mr-[2%] flex lg:justify-end justify-center">
         <Link
           to="/"
           className="grid grid-cols-1 grid-rows-1 place-items-center"
