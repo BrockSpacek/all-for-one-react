@@ -19,8 +19,8 @@ const PlayScreenComponent = () => {
     return (
 
         <div className='grid lg:grid-cols-10 lg:grid-rows-5 sm:grid-cols-7 grid-cols-6 grid-rows-7 lg:gap-5 gap-3 bg-[url(src/assets/wp12250335-mha-ua-wallpapers.jpg)] h-screen bg-no-repeat bg-center bg-cover'>
-            <div class="mt-[10px] lg:col-start-3 lg:col-span-6 sm:col-start-2 sm:col-span-5 col-start-2 col-span-4 row-start-1">
-                <h1 class="bg-yellow-400 sm:text-3xl text-2xl sm:h-[40px] h-[35px] w-full text-center rounded-3xl">Choose A Hero To Aid</h1>
+            <div className="mt-[10px] lg:col-start-3 lg:col-span-6 sm:col-start-2 sm:col-span-5 col-start-2 col-span-4 row-start-1">
+                <h1 className="bg-yellow-400 sm:text-3xl text-2xl sm:h-[40px] h-[35px] w-full text-center rounded-3xl">Choose A Hero To Aid</h1>
             </div>
 
             <div className="row-start-2 col-start-2 col-span-2">
