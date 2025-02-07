@@ -21,7 +21,7 @@ const SayHelloComponent = () => {
     };
   
     return (
-      <div className="bg-[url(src/assets/game1background.png)] h-screen bg-cover bg-no-repeat bg-center">
+      <div className="bg-[url(/src/assets/game1background.png)] h-screen bg-cover bg-no-repeat bg-center">
         <div className="place-items-center">
           <div className="flex justify-center md:w-[50%] w-[80%]">
             <div className="bg-red-400 text-3xl place-content-center h-[80px] w-full text-center rounded-2xl mt-[20px]">
