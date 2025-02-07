@@ -27,7 +27,7 @@ const GreaterThenComponent = () => {
     };
   
     return (
-      <div className="bg-[url(src/assets/Game5Background.jpg)] h-screen bg-cover bg-no-repeat bg-center">
+      <div className="bg-[url(/src/assets/Game5Background.jpg)] h-screen bg-cover bg-no-repeat bg-center">
         <div className="place-items-center">
           <div className="flex justify-center md:w-[50%] w-[80%]">
             <div className="bg-[#178E1F] text-3xl place-content-center sm:h-[80px] h-[110px] w-full text-center rounded-2xl mt-[20px] text-white">

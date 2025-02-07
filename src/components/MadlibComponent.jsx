@@ -54,7 +54,7 @@ const MadlibComponent = () => {
     }
   };
   return (
-    <div className="min-h-screen bg-[url(src/assets/Game6Background.jpg)] bg-cover bg-fixed bg-no-repeat bg-center flex flex-col">
+    <div className="min-h-screen bg-[url(/src/assets/Game6Background.jpg)] bg-cover bg-fixed bg-no-repeat bg-center flex flex-col">
       <div className="flex-grow flex flex-col items-center">
         <div className="flex justify-center md:w-[50%] w-[80%]">
           <div className="bg-[#B60A0D] text-3xl place-content-center max-[460px]:h-20 sm:h-[80px] w-full text-center rounded-2xl mt-[20px] text-white">

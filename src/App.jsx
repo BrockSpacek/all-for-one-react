@@ -7,7 +7,7 @@ function App() {
 
   return (
     
-      <div className='bg-[url(src/assets/Home_Page.jpg)] h-screen bg-no-repeat bg-cover bg-center grid-cols-8 grid-rows-8' >
+      <div className='bg-[url(/src/assets/Home_Page.jpg)] h-screen bg-no-repeat bg-cover bg-center grid-cols-8 grid-rows-8' >
 
         
           <h1 className="text-red-600 text-6xl lg:mr-[21%] flex lg:justify-end justify-center">One For All</h1>

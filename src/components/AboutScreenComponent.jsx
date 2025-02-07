@@ -5,7 +5,7 @@ const AboutScreenComponent = () => {
 
 
     return (
-        <div className='bg-[url(src/assets/About_Background.png)] h-screen bg-no-repeat bg-center bg-cover lg:place-items-start place-items-center'>
+        <div className='bg-[url(/src/assets/About_Background.png)] h-screen bg-no-repeat bg-center bg-cover lg:place-items-start place-items-center'>
             <h1 className='underline text-5xl text-white lg:ml-[20%]'> One For All</h1>
 
             <div className='text-white lg:text-4xl text-2xl mt-16 ml-[2%] lg:place-items-start place-items-center'>

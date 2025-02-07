@@ -24,7 +24,7 @@ const RestaurantPickerComponent = () => {
 
 
     return (
-       <div className="bg-[url(src/assets/Game10Background.jpg)] h-screen bg-cover bg-no-repeat bg-center">
+       <div className="bg-[url(/src/assets/Game10Background.jpg)] h-screen bg-cover bg-no-repeat bg-center">
                <div className="place-items-center">
                  <div className="flex justify-center md:w-[50%] w-[80%]">
                    <div className="bg-[#9385D0] text-3xl place-content-center max-[460px]:h-48 sm:h-[160px] w-full text-center rounded-2xl mt-[20px] text-white">
